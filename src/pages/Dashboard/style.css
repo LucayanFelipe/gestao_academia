@@ -1,0 +1,135 @@
+
+.dashboard-container {
+  background-color: #34495e; 
+  color: white; 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 200vh;
+  margin: 0px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
+.dashboard-container h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+.dashboard-container p {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+.protein-progress {
+  margin: 30px 0;
+  text-align: center;
+  width: 140px; 
+  height: 140px; 
+
+}
+
+.protein-progress p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.dashboard-container select,
+.dashboard-container input {
+  background-color: #2c3e50;
+  border: 1px solid #34495e;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+  max-width: 300px;
+}
+
+.nutricao{
+  margin-top:10vh;
+}
+
+.food-itens {
+  margin-top:0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+
+
+.dashboard-container button {
+  background-color: #1abc9c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 10px;
+  max-width: 300px; 
+}
+
+.dashboard-container button:hover {
+  background-color: #16a085; 
+}
+
+.dashboard-container button:disabled {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+
+.dashboard-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  width: 100%; 
+  max-width: 600px; 
+}
+
+.dashboard-container ul li {
+  background-color: #3f5765;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-container ul li button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-container ul li button:hover {
+  background-color: #c0392b; 
+}
+
+.dashboard-container select:disabled,
+.dashboard-container input:disabled {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+
